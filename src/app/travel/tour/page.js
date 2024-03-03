@@ -6,6 +6,6 @@ export const metadata = {
   title: 'Italian Delights - 12 Days',
 };
 
-export default function TravelTourPage({ params }) {
-  return <TravelTourView params={params} />;
+export default function TravelTourPage() {
+  return <TravelTourView />;
 }
